@@ -140,6 +140,7 @@
             var video = document.querySelector('video');
             if (video) video.volume = 0;
             if (video) video.pause();
+            if (video) video.src = "";
             if (video) video.remove();
 
             //
